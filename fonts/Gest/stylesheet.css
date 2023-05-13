@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Gest';
+    src: url('Gest-Regular.eot');
+    src: url('Gest-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gest-Regular.woff2') format('woff2'),
+        url('Gest-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
