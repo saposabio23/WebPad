@@ -23,9 +23,9 @@
         $(document).ready(function(){ 
             $("#pad-content").load($("#pad-content").attr("data-md"), function(){
 		run();
-		// window.setTimeout(function(){
-		// 	$.getScript("https://unpkg.com/pagedjs/dist/paged.polyfill.js", function(data, textStatus, jqxhr) {})
-		// 	});
+		window.setTimeout(function(){
+			$.getScript("https://unpkg.com/pagedjs/dist/paged.polyfill.js", function(data, textStatus, jqxhr) {})
+			});
 		}); 
         });
     </script>
